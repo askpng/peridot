@@ -39,8 +39,9 @@
       },
       {
         "type": "command",
-        "key": "base",
-        "text": "rpm-ostree status | awk '/ostree-image-signed:/ {split($2, image, \"\\://\"); print substr(image[2], 16)}'"
+        "key": "bday",
+        "text": "ls -l | awk '{print $6}' | date +%d-%m-%Y",
+        "shell": "/bin/bash"
       },
       {
         "type": "command",
