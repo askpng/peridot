@@ -1,8 +1,14 @@
 # peridot
 
-Towards the goal of having an organized collection of dotfiles
+Towards the goal of having an organized collection of dotfiles...
 
-## tree 🌳
+A heap of configuration files I cannot live without.
+
+My computer is currently running an atomic image, but the configs of course will still work in a traditional distro. Just copy and paste the folder or file you need into the appropriate directory.
+
+Maybe eventually I will add READMEs and sample images.
+
+## 🌳 tree 🌳
 
 ```
 .
@@ -10,7 +16,7 @@ Towards the goal of having an organized collection of dotfiles
 │   ├── throttled.conf
 │   ├── tlp.conf
 │   └── zcfan.conf        
-└── /home/$USER OR /var/home/$USER/
+└── ~
     ├── .config/
     │   ├── fastfetch/
     │   │   ├── ascii/
@@ -30,16 +36,17 @@ Towards the goal of having an organized collection of dotfiles
     │   │   └── # to be added
     │   ├── yt-dlp/
     │   │   └── config # embed thumbnail, metadata, import firefox cookies, 
-    │   │                set default output directory 
+    │   │                set default output directory for downloads
     │   └── chromium-flags.conf # enable wayland & hardware acceleration
     └── .var/
         └── app/
             ├── app.devsuite.Ptyxis/data/app.devsuite.Ptyxis/palettes/
             │   └── # dynamic Ptyxis palettes live here
             ├── io.github.celluloid_player.Celluloid/config/celluloid/
-            │   ├── scripts
+            │   ├── scripts/
+            │   │   └── # mpv scripts live here              
             │   └── mpv.conf
             └── org.chromium.Chromium/config/
                 └── chromium-flags.conf # enable wayland
-                                        & hardware acceleration
+                                          & hardware acceleration
 ```
