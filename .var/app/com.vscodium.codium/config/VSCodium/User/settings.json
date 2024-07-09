@@ -1,0 +1,25 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'18TRIP Sans Funny'",
+    "editor.fontLigatures": "'kern', 'dlig', 'liga'",
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "bearded-icons",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Tokyo Night",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Moegi Light",
+    "workbench.preferredDarkColorTheme": "Moegi Space",
+    "workbench.colorCustomizations": {
+    "[Tokyo Night Storm]": { // or "[Tokyo Night]"
+        "window.activeBorder": "#ff0000",
+        "window.inactiveBorder":"#0000ff"
+    }},
+    "redhat.telemetry.enabled": false,
+    "git.autofetch": true,
+    "git.autofetchPeriod": 1800,
+    "editor.wordWrapColumn": 300,
+    "editor.fontVariations": true,
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "terminal.external.linuxExec": "'xdg-terminal-exec','gnome-terminal'",
+}
