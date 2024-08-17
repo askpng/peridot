@@ -2,4 +2,4 @@
 --embed-thumbnail
 --embed-metadata
 --cookies-from-browser firefox
--o ~/Music/music/%(fulltitle)s.%(ext)s
+-o ~/Downloads/%(fulltitle)s.%(ext)s

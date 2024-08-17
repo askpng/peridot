@@ -1,3 +1,7 @@
 function fish_greeting
-    fastfetch -c /etc/fastfetch/2.jsonc -l ~/Documents/ascii/pasokonnwotoziru --logo-padding-right 10
+    fastfetch -c ~/.config/fastfetch/startup.jsonc
+    ## atuin
+    if grep -q "Arch Linux" /etc/os-release
+        atuin init fish | source
+    end
 end
